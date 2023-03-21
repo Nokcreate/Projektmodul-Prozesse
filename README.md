@@ -14,6 +14,7 @@ Unser Wiki:
 https://github.com/Nokcreate/Projektmodul-Prozesse/wiki
 
 Unsere Issues:
+https://github.com/Nokcreate/Projektmodul-Prozesse/issues
 
 Unser Figma-File:
 https://www.figma.com/file/Ugg6s2R6eKiEZ3gVlh6j0E/Gruppe-1?node-id=0-1&t=Md3t47aT5iGMu1Nt-0
