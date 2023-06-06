@@ -1,0 +1,1094 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.0f1 (fb119bb0b476) revision 16454043'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'de' Physical Memory: 32656 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+F:\2022.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+F:/project vr prozesse/Prozesse-Final
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+63905
+Successfully changed project path to: F:/project vr prozesse/Prozesse-Final
+F:/project vr prozesse/Prozesse-Final
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24592] Host "[IP] 192.168.178.93 [Port] 0 [Flags] 2 [Guid] 137367257 [EditorId] 137367257 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S65UC7S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24592] Host "[IP] 192.168.178.93 [Port] 0 [Flags] 2 [Guid] 137367257 [EditorId] 137367257 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S65UC7S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 16.62 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.46 ms.
+Initialize engine version: 2022.3.0f1 (fb119bb0b476)
+[Subsystems] Discovering subsystems at path F:/2022.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/project vr prozesse/Prozesse-Final/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   NVIDIA
+    VRAM:     8003 MB
+    Driver:   31.0.15.3161
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'F:/2022.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'F:/2022.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/2022.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/2022.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: F:/2022.3.0f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: F:/2022.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: F:/2022.3.0f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: F:/2022.3.0f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: F:/2022.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: F:/2022.3.0f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.006030 seconds.
+- Loaded All Assemblies, in  0.374 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 344 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.698 seconds
+Domain Reload Profiling: 1072ms
+	BeginReloadAssembly (90ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (173ms)
+		LoadAssemblies (90ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (153ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (699ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (633ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (476ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.692 seconds
+Refreshing native plugins compatible for Editor in 9.19 ms, found 14 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.85.0
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.823 seconds
+Domain Reload Profiling: 1514ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (514ms)
+		LoadAssemblies (210ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (358ms)
+			TypeCache.Refresh (318ms)
+				TypeCache.ScanAssembly (304ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (823ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (637ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (520ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 8.48 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.02 ms.
+Unloading 5407 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 96 unused Assets / (174.2 KB). Loaded Objects now: 5831.
+Memory consumption went from 202.1 MB to 201.9 MB.
+Total: 4.974000 ms (FindLiveObjects: 0.420700 ms CreateObjectMapping: 0.514500 ms MarkObjects: 3.694000 ms  DeleteObjects: 0.343800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 299224.511325 seconds.
+  path: Assets/Clinic - Hospital room/models/01_wall.fbx
+  artifactKey: Guid(559825ea88fcfed4e8913b9c6253015c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clinic - Hospital room/models/01_wall.fbx using Guid(559825ea88fcfed4e8913b9c6253015c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899984596a2742da6961700ecbe3eb84') in 0.464514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Models/WedgeFloor_06.fbx
+  artifactKey: Guid(8ad038b93d45e4c27ac01d76a7b07d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Models/WedgeFloor_06.fbx using Guid(8ad038b93d45e4c27ac01d76a7b07d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a99e7e4b9b4945ec8d1e357b7745fd3') in 0.050346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Models/WallsAndDoors1.fbx
+  artifactKey: Guid(7f7518ef7c1664f7c8bfe2470aebce5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Models/WallsAndDoors1.fbx using Guid(7f7518ef7c1664f7c8bfe2470aebce5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b25810e165397cb2921a176ff247b11') in 0.434794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 15.511168 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01Mat.mat
+  artifactKey: Guid(b6121f1ede3dbe848a9c9de2ef369c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01Mat.mat using Guid(b6121f1ede3dbe848a9c9de2ef369c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9e3f41d2418b0da35b0c4eb9b1a59f') in 0.312545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/DistanceGrab/SkyboxMat.mat
+  artifactKey: Guid(59e9fddc38d83c84689eb3deb601b970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/DistanceGrab/SkyboxMat.mat using Guid(59e9fddc38d83c84689eb3deb601b970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c11bd7d0b48c99fbf2969d721dc8805') in 0.011919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Environment/Room/Materials/SmallRoomFabricMat.mat
+  artifactKey: Guid(1763fc9a4692c3342a463a94fe70f9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Environment/Room/Materials/SmallRoomFabricMat.mat using Guid(1763fc9a4692c3342a463a94fe70f9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a190af8bd780990b4f0bb26ec0d02705') in 0.051860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/Materials/sil.mat
+  artifactKey: Guid(5290b3a55eaa1b7458665dc2d856c042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/Materials/sil.mat using Guid(5290b3a55eaa1b7458665dc2d856c042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920565eb25ab7de5278974c06bb94f3d') in 0.152510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.135632 seconds.
+  path: Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/RayMaterial.mat
+  artifactKey: Guid(0b157fd34da92084a8cf68f92d515504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/RayMaterial.mat using Guid(0b157fd34da92084a8cf68f92d515504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e21d3d258b5d0472b206a075e039cf4') in 0.024842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SceneManager/Materials/Red.mat
+  artifactKey: Guid(ad051d3b772984b47a4b27afcec8cd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SceneManager/Materials/Red.mat using Guid(ad051d3b772984b47a4b27afcec8cd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d5d72b01b63e5bb3f174a02b0231b5') in 0.009859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/Red.mat
+  artifactKey: Guid(1a96f2c436c09b745985d5faf060545d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/Red.mat using Guid(1a96f2c436c09b745985d5faf060545d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649234eca009a82453a2278c6aa33b0e') in 0.009188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/BigRedButton/Materials/PodiumMat.fbx
+  artifactKey: Guid(d1f28cc6776644cebb33c6f73fe07cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/BigRedButton/Materials/PodiumMat.fbx using Guid(d1f28cc6776644cebb33c6f73fe07cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44b76750da5b1f9f04ff8bc5358313c') in 0.104257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Materials/R_controller_DIF.mat
+  artifactKey: Guid(7842888294a7e0e4ea4d15e9f8eb2650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Materials/R_controller_DIF.mat using Guid(7842888294a7e0e4ea4d15e9f8eb2650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045e2df8e1d3f0ac141159b3192bdee7') in 0.080238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.732692 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/PassthroughBrushStroke.mat
+  artifactKey: Guid(0ff7438fe513d7e4295f6ec9b5b623d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/PassthroughBrushStroke.mat using Guid(0ff7438fe513d7e4295f6ec9b5b623d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5d7ea6baf1e64093d2281b9cfdd20f') in 0.005146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Oculus/VR/Meshes/OculusTouchForRift/left_touch_controller_model_skel.fbx
+  artifactKey: Guid(c3ba18e9fa5e9104098cbdbb3e23a5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Meshes/OculusTouchForRift/left_touch_controller_model_skel.fbx using Guid(c3ba18e9fa5e9104098cbdbb3e23a5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159610c6ede30316eeac161f922d3a08') in 0.070178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.011236 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/ToyBox/ToyBoxes.fbx
+  artifactKey: Guid(d8142cf98aa0bf44c9b088fd9081a761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/ToyBox/ToyBoxes.fbx using Guid(d8142cf98aa0bf44c9b088fd9081a761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7bd5c6652baa5a8ff8719b5f2094fe') in 0.045509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Oculus/Interaction/Runtime/Materials/OculusHandDebug.mat
+  artifactKey: Guid(955dc62c6d15d7940a00920925eab81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Runtime/Materials/OculusHandDebug.mat using Guid(955dc62c6d15d7940a00920925eab81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e8a76d70855c237290f751aef176d2') in 0.009994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Oculus/Interaction/Runtime/Materials/OculusHandCursor.mat
+  artifactKey: Guid(882d323910ef3bf4c88fb92c491a5ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Runtime/Materials/OculusHandCursor.mat using Guid(882d323910ef3bf4c88fb92c491a5ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670c956fdaa6d89f147cb7983ee0e67e') in 0.009065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Oculus/Interaction/Runtime/Materials/OculusControllerRayCursor.mat
+  artifactKey: Guid(29459c8b5bc102840b9a63876129bd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Runtime/Materials/OculusControllerRayCursor.mat using Guid(29459c8b5bc102840b9a63876129bd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5bb8aff8856762715a083ee9db5dd2d') in 0.009015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Oculus/VR/Meshes/OculusTouchForQuest2/Materials/OculusTouchForQuest2_MAT.mat
+  artifactKey: Guid(d7292a5e1ae17a64c95f3081d2c6be5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Meshes/OculusTouchForQuest2/Materials/OculusTouchForQuest2_MAT.mat using Guid(d7292a5e1ae17a64c95f3081d2c6be5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcfe85ff75d61590418db8f3624c1d09') in 0.024140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Oculus/Interaction/Runtime/Materials/OculusHand.mat
+  artifactKey: Guid(d641a50c4fe4ee3489a64cf52b76ae79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Runtime/Materials/OculusHand.mat using Guid(d641a50c4fe4ee3489a64cf52b76ae79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db201702f48d7552005219a1c63c88b') in 0.013468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.270452 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/MeterGrid.mat
+  artifactKey: Guid(a5c6952c6ccf162468792012aec09a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/MeterGrid.mat using Guid(a5c6952c6ccf162468792012aec09a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5c8d83a23755fe43b371586bbeb765') in 0.008799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Environment/MRDesk/Materials/MRDeskShadow.mat
+  artifactKey: Guid(b8b2855e2f2d82f47a440a0f16dbfd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Environment/MRDesk/Materials/MRDeskShadow.mat using Guid(b8b2855e2f2d82f47a440a0f16dbfd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a090a01a3674532aab7dec1a74487e02') in 0.010273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Oculus/Interaction/Samples/Materials/Moon.fbx
+  artifactKey: Guid(c248512dc5f8d7546ae41e52308e4b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Materials/Moon.fbx using Guid(c248512dc5f8d7546ae41e52308e4b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca8b9f720106ab6e5a254d7b8aa51c5') in 0.021051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/Doll/Models/Doll.fbx
+  artifactKey: Guid(254f1b7e40e902449a9139030b3240ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/Doll/Models/Doll.fbx using Guid(254f1b7e40e902449a9139030b3240ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7232089829341817f10afa48a1a97d4') in 0.030967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/MAT_cinderblock_01.mat
+  artifactKey: Guid(02c684a5a201b40a4a0418558d9512d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/MAT_cinderblock_01.mat using Guid(02c684a5a201b40a4a0418558d9512d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08cbdc2cbdcda780722123d7a136416b') in 0.133836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/MAT_floor_tile_01.mat
+  artifactKey: Guid(5c3d5738fa2d6483bb8a2af0a6f50a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/MAT_floor_tile_01.mat using Guid(5c3d5738fa2d6483bb8a2af0a6f50a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb16cc16c46c81b6aabc79243033bea1') in 0.115596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Oculus/Interaction/Runtime/Meshes/Locomotion/Materials/MetaCrossMat.mat
+  artifactKey: Guid(c488f540b43d29f499ff5b09a9584dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Runtime/Meshes/Locomotion/Materials/MetaCrossMat.mat using Guid(c488f540b43d29f499ff5b09a9584dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e0e90dc8ff7e3fd8c8c65916e53a21') in 0.009925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/Locomotion/Materials/MetaLocoTutorialUIMat.mat
+  artifactKey: Guid(b458680bd9803bc44b42ff539bff31a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/Locomotion/Materials/MetaLocoTutorialUIMat.mat using Guid(b458680bd9803bc44b42ff539bff31a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217b35738f97eabc43a5e8d9d62ac198') in 0.009641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/MAT_floor_wood_01.mat
+  artifactKey: Guid(5d1946ce7cee747e6aa39a6ea4350e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/MAT_floor_wood_01.mat using Guid(5d1946ce7cee747e6aa39a6ea4350e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4f0cc0ec19d0ef10756bafa7c2b39c') in 0.116887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Materials/lambert1.mat
+  artifactKey: Guid(3c839695eb4e10e448a959141b3abc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Materials/lambert1.mat using Guid(3c839695eb4e10e448a959141b3abc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e363249e36774be9000c63eccec546') in 0.008810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Environment/Locomotion/Models/Materials/LocomotionFloorMat.mat
+  artifactKey: Guid(af517cb464bac334f905a338f89ff4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Environment/Locomotion/Models/Materials/LocomotionFloorMat.mat using Guid(af517cb464bac334f905a338f89ff4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0161146b7bbf40fbe55561296f5ad619') in 0.054681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Environment/Locomotion/Models/Materials/LocomotionMirrorMat.mat
+  artifactKey: Guid(116ea48a5d0307d4b99006d38bafbb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Environment/Locomotion/Models/Materials/LocomotionMirrorMat.mat using Guid(116ea48a5d0307d4b99006d38bafbb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3908825ac34d66f96b762050b81ebc4e') in 0.011200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Environment/Locomotion/Models/Materials/LocomotionGardenMat.mat
+  artifactKey: Guid(32e0f3fc945e5eb41a11daceb28df255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Environment/Locomotion/Models/Materials/LocomotionGardenMat.mat using Guid(32e0f3fc945e5eb41a11daceb28df255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e057621ae51cf01429922ea42a11970d') in 0.056344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Materials/LineMat.mat
+  artifactKey: Guid(0cbffc4fb1a293742bc1585db8956773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Materials/LineMat.mat using Guid(0cbffc4fb1a293742bc1585db8956773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbae244d9c3b84d2940e36d0663e6ab') in 0.035499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/MapWithPins/Materials/MapMat.mat
+  artifactKey: Guid(75c836cb04e7d124b9c2829fd90ab362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/MapWithPins/Materials/MapMat.mat using Guid(75c836cb04e7d124b9c2829fd90ab362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b75dca8edc9ed9d72f4e5ffc2e30129') in 0.020572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Environment/Locomotion/Models/Materials/LocomotionRugMat.mat
+  artifactKey: Guid(62dbb38de162ebe4a8477298e58468be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Environment/Locomotion/Models/Materials/LocomotionRugMat.mat using Guid(62dbb38de162ebe4a8477298e58468be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942718d570bbfbe760d9677fdef4a080') in 0.059048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/Cube/Models/CubeMesh.fbx
+  artifactKey: Guid(2d1094ca45d7fbb4bb2fc2ba8b406ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/Cube/Models/CubeMesh.fbx using Guid(2d1094ca45d7fbb4bb2fc2ba8b406ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea71a473f4b7347fee80fefb9f02dd6') in 0.019401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Oculus/Interaction/Runtime/Materials/LocomotionIndicatorMaterial.mat
+  artifactKey: Guid(e0c493fb22c458946bd44e502efbecd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Runtime/Materials/LocomotionIndicatorMaterial.mat using Guid(e0c493fb22c458946bd44e502efbecd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ebb3838fce2b4fbd45f73007c46564') in 0.009067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.223958 seconds.
+  path: Assets/Oculus/SampleFramework/Core/CustomHands/Materials/Hands_striped.mat
+  artifactKey: Guid(2053692007a444b4298a3c679f98a1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Materials/Hands_striped.mat using Guid(2053692007a444b4298a3c679f98a1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d7733d6858d4e638fe73f084ab9a13') in 0.059290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Oculus/SampleFramework/Core/CustomHands/Models/HandMaterial.mat
+  artifactKey: Guid(cc8c9e8a516866042b69a6919d0ab885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Models/HandMaterial.mat using Guid(cc8c9e8a516866042b69a6919d0ab885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d90691c2474cad7f2986d716df3e4e') in 0.009299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-MediumItalic.ttf
+  artifactKey: Guid(53b4534908f8f324d8ffe0fc5fa5a31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-MediumItalic.ttf using Guid(53b4534908f8f324d8ffe0fc5fa5a31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a725b9fe1f7a5af1f3860d7cb6b3d91d') in 0.025655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-BoldItalic.ttf
+  artifactKey: Guid(440e99598766dbd40a4d8bc01445b5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-BoldItalic.ttf using Guid(440e99598766dbd40a4d8bc01445b5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0ffaf114f59cec74cbc94e0621a58e') in 0.010305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/HandMeshMask.mat
+  artifactKey: Guid(86bd0db9d12fe4cafb0f57c9596dc64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/HandMeshMask.mat using Guid(86bd0db9d12fe4cafb0f57c9596dc64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27dc0719b2921489a9f5daa115a8a5f') in 0.024389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/HandsNotificationMaterial.mat
+  artifactKey: Guid(497f7cc045d01f1479c242f0b883e8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/HandsNotificationMaterial.mat using Guid(497f7cc045d01f1479c242f0b883e8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1d0d42aec50d52e70a620c999f939a') in 0.013139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/GridMat.mat
+  artifactKey: Guid(ef9e1306ede8d0f48b798c2341d75ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/GridMat.mat using Guid(ef9e1306ede8d0f48b798c2341d75ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd221f5ddecbff7915d218d2972b3ed1f') in 0.012254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/FatHand.mat
+  artifactKey: Guid(ab04d9fb6b1844341887a1606c641c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/FatHand.mat using Guid(ab04d9fb6b1844341887a1606c641c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7cd97af786dc84a628ef6e6157daff4') in 0.020511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Oculus/Interaction/Samples/Materials/FramePoseTwoHandedParticle.mat
+  artifactKey: Guid(4f0bfa166f8d21e4f8b433ae64c0c0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Materials/FramePoseTwoHandedParticle.mat using Guid(4f0bfa166f8d21e4f8b433ae64c0c0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975d8d2ef0a493d66ec4b8c86f2e9295') in 0.010002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/Graffiti.mat
+  artifactKey: Guid(dd331cc38e3258643bf0d3d221718362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/Graffiti.mat using Guid(dd331cc38e3258643bf0d3d221718362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019b6a74d8ecf3a670051fd2c940c90e') in 0.125739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.995498 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SceneManager/Materials/DiffusedWhite.mat
+  artifactKey: Guid(cef9aed54ef583f47b43a017bfe6b0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SceneManager/Materials/DiffusedWhite.mat using Guid(cef9aed54ef583f47b43a017bfe6b0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fade09937d569f7a4c5d1dbbf8ee189d') in 0.013455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/DropShadow.mat
+  artifactKey: Guid(453454162b59cff4e85715109e372e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/DropShadow.mat using Guid(453454162b59cff4e85715109e372e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94892e2fb44cccafb4b6030c29c64de0') in 0.027223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009865 seconds.
+  path: Assets/Oculus/Interaction/Runtime/Materials/CrossMaterial.mat
+  artifactKey: Guid(23530cc4d61a63f4c946ccd1b0315b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Runtime/Materials/CrossMaterial.mat using Guid(23530cc4d61a63f4c946ccd1b0315b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767689e162a287f5771f20d6e4bb3f48') in 0.031841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Materials/Clear.mat
+  artifactKey: Guid(15d1a592c297987428ced42437287bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Materials/Clear.mat using Guid(15d1a592c297987428ced42437287bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6e1f87aba092941bd908e0e7f3df58') in 0.093234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/DebugDrawLine.mat
+  artifactKey: Guid(b4fdc20717507cc48b28ef9db82f0d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/DebugDrawLine.mat using Guid(b4fdc20717507cc48b28ef9db82f0d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae48b02fa09e9ff9104590e3868cff8') in 0.005355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Oculus/Voice/Demo/Materials/CheckerBoard.mat
+  artifactKey: Guid(c28f535afb7b14ce79eb489c4c29fae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Voice/Demo/Materials/CheckerBoard.mat using Guid(c28f535afb7b14ce79eb489c4c29fae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e44b266e2ea8cd7322ec2e1adaedcf5') in 0.010306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Oculus/VR/Materials/cursor_timer_material.mat
+  artifactKey: Guid(9531aa878fd5c4749b288b72024e8d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Materials/cursor_timer_material.mat using Guid(9531aa878fd5c4749b288b72024e8d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb0c1473eb9102932e58d168b61140b') in 0.011178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/DefaultHandMaterial.mat
+  artifactKey: Guid(8f92ce6a2e9e04e458f46e6a635b1d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/DefaultHandMaterial.mat using Guid(8f92ce6a2e9e04e458f46e6a635b1d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95e6086cd4fe04aa83ee574efeec664') in 0.040825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.495670 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/Blue.mat
+  artifactKey: Guid(a86f23e51babc544a8f3e240ffe9b263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/Blue.mat using Guid(a86f23e51babc544a8f3e240ffe9b263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63718bd316dcf9e9dfaa0bf4c5716f9') in 0.009786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/Box/Materials/BoxMat.mat
+  artifactKey: Guid(63ceda150b6bfb443902555204d13348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/Box/Materials/BoxMat.mat using Guid(63ceda150b6bfb443902555204d13348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d01fd5cb2f6582ed0bc25f4d98c767') in 0.152676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/BigStone/Materials/BigStoneMat.mat
+  artifactKey: Guid(d786d4ccd0847a64f80d21ee6b07874f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/BigStone/Materials/BigStoneMat.mat using Guid(d786d4ccd0847a64f80d21ee6b07874f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2c46d05691568d6b1dc4f3f9169d4c') in 0.023210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.799350 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/BackgroundMaterial.mat
+  artifactKey: Guid(e95c781da52e2d14fb2fba44d7476164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/BackgroundMaterial.mat using Guid(e95c781da52e2d14fb2fba44d7476164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ac9e3fe2884d247a404885af219c6d') in 0.068560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.683 seconds
+Refreshing native plugins compatible for Editor in 8.73 ms, found 14 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.915 seconds
+Domain Reload Profiling: 1597ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (479ms)
+		LoadAssemblies (218ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (310ms)
+			TypeCache.Refresh (298ms)
+				TypeCache.ScanAssembly (287ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (916ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (531ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (417ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 8.97 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Unloading 5300 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (146.2 KB). Loaded Objects now: 5890.
+Memory consumption went from 182.8 MB to 182.7 MB.
+Total: 4.346200 ms (FindLiveObjects: 0.487000 ms CreateObjectMapping: 0.579000 ms MarkObjects: 3.113100 ms  DeleteObjects: 0.165900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.668 seconds
+Refreshing native plugins compatible for Editor in 9.01 ms, found 14 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.935 seconds
+Domain Reload Profiling: 1603ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (466ms)
+		LoadAssemblies (209ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (312ms)
+			TypeCache.Refresh (299ms)
+				TypeCache.ScanAssembly (285ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (935ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (539ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (423ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 10.23 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Unloading 5300 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (146.3 KB). Loaded Objects now: 5894.
+Memory consumption went from 182.8 MB to 182.7 MB.
+Total: 4.481700 ms (FindLiveObjects: 0.469700 ms CreateObjectMapping: 0.460100 ms MarkObjects: 3.307900 ms  DeleteObjects: 0.243100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.646 seconds
+Refreshing native plugins compatible for Editor in 9.03 ms, found 14 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.922 seconds
+Domain Reload Profiling: 1567ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (450ms)
+		LoadAssemblies (212ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (293ms)
+			TypeCache.Refresh (280ms)
+				TypeCache.ScanAssembly (268ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (922ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (538ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (416ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 9.50 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Unloading 5300 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (138.1 KB). Loaded Objects now: 5898.
+Memory consumption went from 182.8 MB to 182.7 MB.
+Total: 4.603200 ms (FindLiveObjects: 0.486800 ms CreateObjectMapping: 0.517600 ms MarkObjects: 3.423700 ms  DeleteObjects: 0.174100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.675 seconds
+Refreshing native plugins compatible for Editor in 9.09 ms, found 14 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.923 seconds
+Domain Reload Profiling: 1597ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (476ms)
+		LoadAssemblies (219ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (313ms)
+			TypeCache.Refresh (298ms)
+				TypeCache.ScanAssembly (285ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (923ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (543ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (427ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 9.39 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Unloading 5300 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (146.5 KB). Loaded Objects now: 5902.
+Memory consumption went from 182.8 MB to 182.7 MB.
+Total: 4.790300 ms (FindLiveObjects: 0.545400 ms CreateObjectMapping: 0.646900 ms MarkObjects: 3.351300 ms  DeleteObjects: 0.245800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 9.19 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (91.4 KB). Loaded Objects now: 5902.
+Memory consumption went from 101.4 MB to 101.3 MB.
+Total: 4.162600 ms (FindLiveObjects: 0.473200 ms CreateObjectMapping: 0.584800 ms MarkObjects: 2.999600 ms  DeleteObjects: 0.104200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.673 seconds
+Refreshing native plugins compatible for Editor in 9.47 ms, found 14 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.949 seconds
+Domain Reload Profiling: 1620ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (476ms)
+		LoadAssemblies (216ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (315ms)
+			TypeCache.Refresh (301ms)
+				TypeCache.ScanAssembly (287ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (949ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (544ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (428ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 10.35 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Unloading 5300 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (146.4 KB). Loaded Objects now: 5906.
+Memory consumption went from 182.8 MB to 182.7 MB.
+Total: 4.599200 ms (FindLiveObjects: 0.500900 ms CreateObjectMapping: 0.553900 ms MarkObjects: 3.335100 ms  DeleteObjects: 0.207800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
