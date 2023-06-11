@@ -1,0 +1,366 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.0f1 (fb119bb0b476) revision 16454043'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'de' Physical Memory: 32656 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+F:\2022.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/project vr prozesse/Prozesse-Final
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58475
+Successfully changed project path to: F:/project vr prozesse/Prozesse-Final
+F:/project vr prozesse/Prozesse-Final
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20352] Host "[IP] 192.168.178.93 [Port] 0 [Flags] 2 [Guid] 3556841983 [EditorId] 3556841983 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S65UC7S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [20352] Host "[IP] 192.168.178.93 [Port] 0 [Flags] 2 [Guid] 3556841983 [EditorId] 3556841983 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S65UC7S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 12.68 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.35 ms.
+Initialize engine version: 2022.3.0f1 (fb119bb0b476)
+[Subsystems] Discovering subsystems at path F:/2022.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/project vr prozesse/Prozesse-Final/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   NVIDIA
+    VRAM:     8003 MB
+    Driver:   31.0.15.3161
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'F:/2022.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'F:/2022.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/2022.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/2022.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: F:/2022.3.0f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: F:/2022.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: F:/2022.3.0f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: F:/2022.3.0f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: F:/2022.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: F:/2022.3.0f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.007115 seconds.
+- Loaded All Assemblies, in  0.306 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+CommandWithNoStdoutInvokationFailure: Unable to start ADB server. Please make sure the Android SDK is installed and is properly configured in the Editor. See the Console for more details.
+  at UnityEditor.Android.Command.RunWithShellExecute (System.String command, System.String args, System.String workingdir, System.String errorMsg) [0x00060] in <edae9acfb32b434e9f1e104d7ab2dc78>:0 
+  at UnityEditor.Android.ADB.StartServer () [0x00013] in <edae9acfb32b434e9f1e104d7ab2dc78>:0 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000b] in <edae9acfb32b434e9f1e104d7ab2dc78>:0 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x00284] in <edae9acfb32b434e9f1e104d7ab2dc78>:0 
+  at UnityEditor.Android.TargetScanWorker.ScanSync () [0x00039] in <edae9acfb32b434e9f1e104d7ab2dc78>:0 
+  at UnityEditor.Android.TargetExtension.OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[] usbDevices) [0x00081] in <edae9acfb32b434e9f1e104d7ab2dc78>:0 
+  at UnityEditor.Android.TargetExtension.OnLoad () [0x000ad] in <edae9acfb32b434e9f1e104d7ab2dc78>:0 
+  at UnityEditor.Modules.ModuleManager.InitializePlatformSupportModules () [0x0009d] in <4911eca47f294e18a7b3306f02701303>:0 
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.602 seconds
+Domain Reload Profiling: 3908ms
+	BeginReloadAssembly (67ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (153ms)
+		LoadAssemblies (68ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (148ms)
+				TypeCache.ScanAssembly (134ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (3602ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3550ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3411ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\project vr prozesse\Prozesse-Final\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\project vr prozesse\Prozesse-Final\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.715 seconds
+Refreshing native plugins compatible for Editor in 9.96 ms, found 14 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.85.0
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.751 seconds
+Domain Reload Profiling: 1466ms
+	BeginReloadAssembly (103ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (540ms)
+		LoadAssemblies (210ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (378ms)
+			TypeCache.Refresh (335ms)
+				TypeCache.ScanAssembly (320ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (751ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (567ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (51ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (431ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 8.80 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Unloading 5406 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 96 unused Assets / (175.1 KB). Loaded Objects now: 5832.
+Memory consumption went from 202.9 MB to 202.8 MB.
+Total: 4.280400 ms (FindLiveObjects: 0.385500 ms CreateObjectMapping: 0.398900 ms MarkObjects: 3.284800 ms  DeleteObjects: 0.210400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 161262.253021 seconds.
+  path: Assets/ExampleAssets/3.png
+  artifactKey: Guid(f6436a34e26bdf447993a6303145307d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/3.png using Guid(f6436a34e26bdf447993a6303145307d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bacfebb78d8a7760c6a4177a4b83607b') in 0.055539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 19.486410 seconds.
+  path: Assets/ExampleAssets/Ebene 2 Kopie 2.png
+  artifactKey: Guid(6d6e790023a9c9d4a8bdc3d4a2b7896f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Ebene 2 Kopie 2.png using Guid(6d6e790023a9c9d4a8bdc3d4a2b7896f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d5fa00af2010cf96aa42a7b0c1ad2c') in 0.059565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 148.277100 seconds.
+  path: Assets/MinimalistBedroom/Textures/Fabric/FabricClothes_1k/FabricClothes_ao_1k.png
+  artifactKey: Guid(08305d27b7be66043a1c14de85a4d851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Textures/Fabric/FabricClothes_1k/FabricClothes_ao_1k.png using Guid(08305d27b7be66043a1c14de85a4d851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3c54b9a3e4d5450d479ee1d6fa5c84') in 0.048205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MinimalistBedroom/Textures/Fabric/FabricClothes_1k/FabricClothes_metalic_1k.png
+  artifactKey: Guid(615db8d143cbe4549a30f74086eb04a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Textures/Fabric/FabricClothes_1k/FabricClothes_metalic_1k.png using Guid(615db8d143cbe4549a30f74086eb04a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56416ac28dc800224a62756c2572aab') in 0.043031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MinimalistBedroom/Textures/Fabric/FabricClothes_1k/FabricClothes_normal_1k.png
+  artifactKey: Guid(a4f5511369ba6234db6cdb7af48c5adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Textures/Fabric/FabricClothes_1k/FabricClothes_normal_1k.png using Guid(a4f5511369ba6234db6cdb7af48c5adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d8bc60ffe60004e8771628ea726cca') in 0.043721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 44.852541 seconds.
+  path: Assets/MinimalistBedroom/Textures/Fabric/FabrickClothes_1k/FabrickClothes_ao_1k.png
+  artifactKey: Guid(c89d93ec4f8a98845aa3990118483584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Textures/Fabric/FabrickClothes_1k/FabrickClothes_ao_1k.png using Guid(c89d93ec4f8a98845aa3990118483584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d2fd44f7fc92b6bf2ed8397eafc131') in 0.018337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MinimalistBedroom/Textures/Fabric/FabrickClothes_1k/FabrickClothes_normal_1k.png
+  artifactKey: Guid(beade9ad866f15e4e8ded250098d336c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Textures/Fabric/FabrickClothes_1k/FabrickClothes_normal_1k.png using Guid(beade9ad866f15e4e8ded250098d336c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baeb2390ccfa946ceb129f9dcbcd23ec') in 0.020400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 40.577876 seconds.
+  path: Assets/MinimalistBedroom/Textures/Fabric/Rug_1k/Rug_height_1k.png
+  artifactKey: Guid(6749aede070a64547818206937df19e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Textures/Fabric/Rug_1k/Rug_height_1k.png using Guid(6749aede070a64547818206937df19e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'badfa9bfc4dceeaa39492a36923aae15') in 0.019081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.426650 seconds.
+  path: Assets/MinimalistBedroom/Textures/Fabric/FabricWrinkled_2k/FabricWrinkled_height_2k.png
+  artifactKey: Guid(169044e7ff448ea4c83a57520b02bacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Textures/Fabric/FabricWrinkled_2k/FabricWrinkled_height_2k.png using Guid(169044e7ff448ea4c83a57520b02bacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fd327cc34cf5114a396274f7cfa50b') in 0.025393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MinimalistBedroom/Textures/Fabric/FabricWrinkled_2k/FabricWrinkled_normal_2k.png
+  artifactKey: Guid(4894a268797ec3e44a358c766427880c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Textures/Fabric/FabricWrinkled_2k/FabricWrinkled_normal_2k.png using Guid(4894a268797ec3e44a358c766427880c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b6deaef79ba0d8e74fd3c321933681') in 0.024429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 30.621816 seconds.
+  path: Assets/MinimalistBedroom/Textures/Fabric/Suede_1k/Suede_height_1k.png
+  artifactKey: Guid(79deba967706f1b438ca4eebd68a921b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Textures/Fabric/Suede_1k/Suede_height_1k.png using Guid(79deba967706f1b438ca4eebd68a921b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0e671bff0bdbaccfec931a10c658e0') in 0.019405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.976698 seconds.
+  path: Assets/MinimalistBedroom/Textures/Misc/CandleWaxDripping_512/candle_wax_Height_512.png
+  artifactKey: Guid(aea8b9b153cce03428d155b7cb10b948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Textures/Misc/CandleWaxDripping_512/candle_wax_Height_512.png using Guid(aea8b9b153cce03428d155b7cb10b948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2204e992b54a708218a42aead9fdcf1e') in 0.013174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MinimalistBedroom/Textures/Misc/CandleWaxDripping_512/candle_wax_Normal_512.png
+  artifactKey: Guid(b103fdd900963ac4ea69cd7b9239e37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Textures/Misc/CandleWaxDripping_512/candle_wax_Normal_512.png using Guid(b103fdd900963ac4ea69cd7b9239e37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9407954ef2399f9ffe42159d2c423c') in 0.011377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.526198 seconds.
+  path: Assets/MinimalistBedroom/Textures/Misc/DirtyWindow_2k/DirtyWindow_metalic2_2k.png
+  artifactKey: Guid(b6e50ad4a5bc74e45a67e8291c51c385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Textures/Misc/DirtyWindow_2k/DirtyWindow_metalic2_2k.png using Guid(b6e50ad4a5bc74e45a67e8291c51c385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5fd6762ec7ce3c1a41aeeb0647acfa') in 0.042982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MinimalistBedroom/Textures/Misc/DirtyWindow_2k/DirtyWindow_normal_2k.png
+  artifactKey: Guid(7967117ab0b62f14cb7e935569a567f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Textures/Misc/DirtyWindow_2k/DirtyWindow_normal_2k.png using Guid(7967117ab0b62f14cb7e935569a567f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e68ece3c5625c47d6a29e5bef2f65e') in 0.039411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.400382 seconds.
+  path: Assets/MinimalistBedroom/Textures/Misc/PaintingAbstract_1k/PaintingAbstract_Height_1k.png
+  artifactKey: Guid(d6f7766ed27e6bf46b157d3167e57bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Textures/Misc/PaintingAbstract_1k/PaintingAbstract_Height_1k.png using Guid(d6f7766ed27e6bf46b157d3167e57bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a721ed59be76ec1f3f1f76833d7b86') in 0.018149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.646651 seconds.
+  path: Assets/MinimalistBedroom/Textures/Misc/Plaster_1k/Plaster_metalic_1k.png
+  artifactKey: Guid(26ffbbf882867254490cbd90a3df0173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Textures/Misc/Plaster_1k/Plaster_metalic_1k.png using Guid(26ffbbf882867254490cbd90a3df0173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6f96ee40d3d26bcb3bdb89972c5015') in 0.016323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Der E/A-Vorgang wurde wegen eines Threadendes oder einer Anwendungsanforderung abgebrochen.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
