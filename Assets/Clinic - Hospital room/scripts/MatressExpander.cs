@@ -4,8 +4,9 @@ using UnityEngine;
 public class MatressExpander : MonoBehaviour
 {
     public GameObject[] layers = new GameObject[10];
-    public float expansionDistance = 0.1f;
+    public float expansionDistance = 0.2f;
     public OVRInput.Button triggerButton = OVRInput.Button.PrimaryIndexTrigger;
+    private bool isExpanded = false;
 
     private void Start()
     {
@@ -15,18 +16,26 @@ public class MatressExpander : MonoBehaviour
         layers[2] = GameObject.Find("Boden_unten_AI_Sensor");
         layers[3] = GameObject.Find("BodenLuftKissen");
         layers[4] = GameObject.Find("BodenVisko");
-        layers[5] = GameObject.Find("Fassung");
-        layers[6] = GameObject.Find("Laken");
-        layers[7] = GameObject.Find("Luftkissen");
-        layers[8] = GameObject.Find("ViskoCube");
-        layers[9] = GameObject.Find("WärmeKälteLayer");
+        layers[5] = GameObject.Find("Laken");
+        layers[6] = GameObject.Find("Luftkissen");
+        layers[7] = GameObject.Find("ViskoCube");
+        layers[8] = GameObject.Find("WärmeKälteLayer");
     }
 
     private void Update()
     {
         if (OVRInput.GetDown(triggerButton))
         {
-            StartCoroutine(ExpandLayers());
+            if (isExpanded)
+            {
+                StartCoroutine(ContractLayers());
+                isExpanded = false;
+            }
+            else
+            {
+                StartCoroutine(ExpandLayers());
+                isExpanded = true;
+            }
         }
     }
 
@@ -36,6 +45,17 @@ public class MatressExpander : MonoBehaviour
         {
             Vector3 newPosition = layers[i].transform.position;
             newPosition.y += i * expansionDistance;
+            layers[i].transform.position = newPosition;
+            yield return new WaitForSeconds(0.2f);
+        }
+    }
+
+    private IEnumerator ContractLayers()
+    {
+        for (int i = layers.Length - 1; i >= 0; i--)
+        {
+            Vector3 newPosition = layers[i].transform.position;
+            newPosition.y -= i * expansionDistance;
             layers[i].transform.position = newPosition;
             yield return new WaitForSeconds(0.2f);
         }

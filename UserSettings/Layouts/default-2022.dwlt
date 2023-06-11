@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1349
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 5400
+  controlID: 9781
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 5406
+  controlID: 9782
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 5407
+  controlID: 9783
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -442,10 +442,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 776}
+      scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: beeeffffc6eeffffceeeffffd4eeffff30f1ffff94f2ffff9af2fffff8f2ffff6ef6ffffbaf8ffffc2f8ffffcaf8ffffd2f8ffffdcf8ffffe2f9ffff2afaffff6efaffff86faffff8efaffff96faffff9efaffffa8faffff22fbffff7e710000bc710000da71000014720000f47200000a730000127300002e730000b0730000
+      m_ExpandedIDs: 441fffffb2c5ffff3af0ffffb0faffffd0faffffd8faffffe0faffffeafaffff22fbffff58710000ea7100000a72000064720000b4720000cc720000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -800,9 +800,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.132101, y: -1.1524131, z: 3.3340776}
+    m_Target: {x: -0.7812607, y: 0.631219, z: 1.430768}
     speed: 2
-    m_Value: {x: -5.132101, y: -1.1524131, z: 3.3340776}
+    m_Value: {x: -0.7812607, y: 0.631219, z: 1.430768}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -848,20 +848,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.14791818, y: -0.49005237, z: 0.08475019, w: 0.85487986}
+    m_Target: {x: -0.21016611, y: 0.2524601, z: -0.05627677, w: -0.9428979}
     speed: 2
-    m_Value: {x: -0.14791818, y: 0.49005234, z: -0.08475019, w: -0.8548798}
+    m_Value: {x: -0.21006785, y: 0.25385773, z: -0.056588292, w: -0.94245714}
   m_Size:
-    m_Target: 5.8958626
+    m_Target: 1.3927283
     speed: 2
-    m_Value: 5.8958626
+    m_Value: 1.3327544
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 2
-    m_SpeedNormalized: 1
+    m_Speed: 1.7601203
+    m_SpeedNormalized: 0.8800001
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -927,7 +927,7 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/XR
+    - Assets/Clinic - Hospital room/scripts
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -935,16 +935,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/XR
+  - Assets/Clinic - Hospital room/scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: F:\project vr prozesse\Prozesse-Final
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 75}
-    m_SelectedIDs: 54880000
-    m_LastClickedID: 34900
-    m_ExpandedIDs: 00000000048700000687000008870000ffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: e0870000
+    m_LastClickedID: 34784
+    m_ExpandedIDs: 00000000e2860000e4860000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -972,7 +972,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000048700000687000008870000ffffff7f
+    m_ExpandedIDs: 00000000e2860000e4860000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -999,7 +999,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000c09100002693000000e80100e0780000aea1000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1140,7 +1140,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 414
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
