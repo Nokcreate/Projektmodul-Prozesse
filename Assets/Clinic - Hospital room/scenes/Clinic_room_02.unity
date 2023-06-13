@@ -4546,18 +4546,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   layers:
+  - {fileID: 1443370841}
   - {fileID: 680144764}
+  - {fileID: 1155164632}
   - {fileID: 1492494131}
   - {fileID: 2077834321}
   - {fileID: 72898900}
   - {fileID: 2145052819}
   - {fileID: 946510541}
   - {fileID: 2126440045}
-  - {fileID: 1443370841}
-  - {fileID: 1155164632}
   - {fileID: 680144764}
   expansionDistance: 0.12
   triggerButton: 8192
+  moveSpeed: 1
 --- !u!1 &876500842
 GameObject:
   m_ObjectHideFlags: 0
