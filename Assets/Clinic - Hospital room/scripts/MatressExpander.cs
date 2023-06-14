@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using System.Collections.Generic;
 
 public class MatressExpander : MonoBehaviour
 {
@@ -8,23 +9,23 @@ public class MatressExpander : MonoBehaviour
     public OVRInput.Button triggerButton = OVRInput.Button.PrimaryIndexTrigger;
     public float moveSpeed = 1.0f; // Geschwindigkeit, mit der sich die Schichten bewegen
     private bool isExpanded = false;
-    private Vector3[] originalPositions; // speichert die ursprünglichen Positionen der Schichten
+    private Vector3[] originalPositions; // speichert die ursprÃ¼nglichen Positionen der Schichten
 
     private void Start()
     {
         originalPositions = new Vector3[layers.Length];
         // Ersetzen Sie diese Zeilen durch den Namen Ihrer GameObjects.
-        layers[0] = GameObject.Find("Boden_oben_AI_Sensor");
-        layers[1] = GameObject.Find("AI_Sensor");
-        layers[2] = GameObject.Find("Boden_unten_AI_Sensor");
-        layers[3] = GameObject.Find("BodenLuftKissen");
-        layers[4] = GameObject.Find("BodenVisko");
-        layers[5] = GameObject.Find("Laken");
+        layers[0] = GameObject.Find("Laken");        
+        layers[1] = GameObject.Find("Boden_oben_AI_Sensor");
+        layers[2] = GameObject.Find("AI_Sensor");
+        layers[3] = GameObject.Find("Boden_unten_AI_Sensor");
+        layers[4] = GameObject.Find("BodenLuftKissen");
+        layers[5] = GameObject.Find("BodenVisko");
         layers[6] = GameObject.Find("Luftkissen");
         layers[7] = GameObject.Find("ViskoCube");
-        layers[8] = GameObject.Find("WärmeKälteLayer");
+        layers[8] = GameObject.Find("WÃ¤rmeKÃ¤lteLayer");
 
-        // Speichert die ursprünglichen Positionen der Schichten
+        // Speichert die ursprÃ¼nglichen Positionen der Schichten
         for (int i = 0; i < layers.Length; i++)
         {
             originalPositions[i] = layers[i].transform.position;
@@ -33,7 +34,7 @@ public class MatressExpander : MonoBehaviour
 
     private void Update()
     {
-        if (OVRInput.GetDown(triggerButton))
+        if (OVRInput.GetDown(triggerButton) || Input.GetMouseButtonDown(0))
         {
             if (isExpanded)
             {
@@ -48,14 +49,16 @@ public class MatressExpander : MonoBehaviour
         }
     }
 
+
     private IEnumerator ExpandLayers()
     {
         for (int i = 0; i < layers.Length; i++)
         {
-            Vector3 targetPosition = originalPositions[i] + new Vector3(0, i * expansionDistance, 0);
+            Vector3 targetPosition = originalPositions[i] + new Vector3(0, (layers.Length - 1 - i) * expansionDistance, 0);
             yield return StartCoroutine(MoveToTarget(layers[i].transform, targetPosition));
         }
     }
+
 
     private IEnumerator ContractLayers()
     {
