@@ -10,7 +10,15 @@ Unsere innovative Matratze enthält ein Array von Sensoren, welche die Problemst
 
 Optimal wird viel Zeit bei den behandelnden Krankenschwestern gespart, die sie dann nutzen können, um sich mit den Patienten zu unterhalten, sie anderweitig zu behandeln, oder auf andere Weise die Bedürfnisse der Patienten zufriedenzustellen.
 
-## Unsere Lösungsfindung
+## Unser Lösungsansatz das Projekt
+
+Als Lösung für das Projektmodul haben wir ein zweiteiliges Programm, an dem wir aktuell noch in der Entwicklung sind:
+
+#### - Luftmatratze mit Raspberry Pi
+Einmal zeigen wir ein MVP der Luftmatratze mit eingebautem Raspberry Pi Modul, welches Druckpunktbereiche besitzt und erkennt, wo und wie die Person auf der Matratze liegt.
+
+#### - Immersive VR Umgebung eines Krankenzimmers mit der Matratze
+Mit dazu entwickeln wir auch ein virtuelles Krankenzimmer, in der man mit einer VR-Brille eintauchen kann. Dort kann man u.a. mit der Matratze interagieren und weitere Information über das Produkt und den Prozess herausfinden und lernen. 
 
 ## Wir sind:
 
