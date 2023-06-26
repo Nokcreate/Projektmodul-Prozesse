@@ -14,7 +14,7 @@ public class MatressExpander : MonoBehaviour
 {
     public LayerInfo[] layers;
     public GameObject infoPanel;
-    public Text infoText;
+    public TMPro.TextMeshProUGUI infoText;
     public float expansionDistance = 0.2f;
     public OVRInput.Button triggerButton = OVRInput.Button.PrimaryIndexTrigger;
     public OVRInput.Button selectButton = OVRInput.Button.PrimaryHandTrigger;
