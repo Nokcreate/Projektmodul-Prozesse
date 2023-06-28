@@ -27,8 +27,8 @@ public class CameraController : MonoBehaviour
 
         transform.position = transform.position + movement * speed * Time.deltaTime;
 
-        // Hinzufügen der Kameradrehung per Rechtsklick
-        if (Input.GetMouseButton(1))  // 1 steht für die rechte Maustaste
+        // Hinzufï¿½gen der Kameradrehung per Rechtsklick
+        if (Input.GetMouseButton(1))  // 1 steht fï¿½r die rechte Maustaste
         {
             yaw += rotationSpeed * Input.GetAxis("Mouse X") * Time.deltaTime;
             pitch -= rotationSpeed * Input.GetAxis("Mouse Y") * Time.deltaTime;
